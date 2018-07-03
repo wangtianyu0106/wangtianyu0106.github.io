@@ -1,0 +1,513 @@
+/*通用样式*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*去除li前点*/
+header li{
+    list-style: none;
+}
+/*去除li前点*/
+
+/*浮动*/
+.header-top .header-top-txt p,
+.header-top .header-top-txt,
+.header-nav ul li,
+.jrsx .row .col-md-12 h2,
+.jrsx .row .col-md-12 p,
+.xscx .row .col-md-12 h2,
+.xscx .row .col-md-12 p,
+.zdjy .row .col-md-12 h2,
+.zdjy .row .col-md-12 p{
+    float: left;
+}
+
+.header-top .header-top-tb,
+.jrsx .row .col-md-12 span,
+.xscx .row .col-md-12 span,
+.zdjy .row .col-md-12 span{
+    float: right;
+}
+/*浮动*/
+
+/*通用样式*/
+
+/*header部分样式*/
+.header-top{
+    padding: 15px 0px 10px 0px;
+    background: #e0e0e0;
+}
+.header-top-txt p:nth-of-type(1) {
+    padding-right: 30px;
+}
+.header-top-tb i{
+    font-size: 20px;
+}
+.header-top-tb i:nth-of-type(2){
+    padding: 0px 15px;
+}
+header .logo{
+    text-align: center;
+    padding: 10px 0px;
+}
+header .logo img{
+    width: 94px;
+    height: 94px;
+    max-width: 94px;
+}
+.header-logo-nav{
+    background: url(../img/header/header-bg.jpg);
+}
+.header-nav a{
+    color: #777;
+}
+.header-nav .acvite{
+    color: #000;
+}
+.header-nav a:hover {
+    text-decoration: none;
+    color: #000;
+}
+.header-nav{
+    padding: 15px 0px;
+}
+.header-nav .row{
+    margin-left: -20px;
+    margin-left: -20px;
+}
+.nn{
+    width: 9%;
+}
+/*header部分样式*/
+
+/*banner部分样式*/
+.banner img{
+    width: 100%;
+}
+.banner .swiper-slide{
+    position: relative;
+}
+.banner h1{
+    z-index: 1;
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 20px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.banner .swiper-slide{
+    width: 100%;
+    background-image: url(../img/banner/img2.jpg);
+    background-size: 100% 100%;
+    height: 469px;
+}
+.banner{
+    margin-bottom: 20px;
+}
+/*banner部分样式*/
+
+/*main部分样式*/
+.main .row img{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #f6f6f6;
+}
+/*main部分样式*/
+
+/*今日上新部分样式*/
+.jrsx,
+.xscx,
+.zdjy{
+    margin-bottom: 30px;
+}
+.jrsx h2,.xscx h2,
+.zdjy h2{
+    font-size: 20px;
+}
+.jrsx .col-md-12 p,
+.xscx .col-md-12 p,
+.zdjy .col-md-12 p{
+    font-size: 16px;
+    color: #646464;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+.jrsx .col-md-12 span,
+.xscx .col-md-12 span,
+.zdjy .col-md-12 span{
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 10%;
+    border: 1px #dbdbdb solid;
+}
+.jrsx .row .col-md-12,
+.xscx .row .col-md-12,
+.zdjy .row .col-md-12{
+    position: relative;
+    border-bottom: 1px #dbdbdb solid;
+    margin-bottom: 20px;
+}
+.jrsx .line,
+.xscx .line,
+.zdjy .line{
+    height: 2px;
+    background: #afafaf;
+    width: 18%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.jrsx .m3box{
+    border: 1px solid #f6f6f6;
+}
+.jrsx .col-md-3 img{
+    width: 100%;
+    padding: 20px 0px;
+}
+.jrsx .col-md-3 h3{
+    font-size: 18px;
+    color: #9e9e9e;
+}
+.jrsx .col-md-3 p{
+    font-size: 14px;
+    color: #666666;
+}
+/*今日上新部分样式*/
+
+/*显示促销部分样式*/
+.xscx{
+    margin-bottom: 30px;
+}
+.xscx .m6-box img{
+    width: 100%;
+}
+.xscx .times{
+    padding: 20px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+.xscx .m6-box{
+    border: 1px solid #b7b2b2;
+    background: #f7f7f7;
+}
+/*显示促销部分样式*/
+
+/*简介部分样式*/
+
+.jj{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.jj .mm6 img{
+    width: 100%;
+}
+.jj .jj-logo{
+    margin: 20px 0px;
+    width: 92px;
+    height: 92px;
+}
+.jj p{
+    text-align: left;
+    font-size: 14px;
+    color: #676767;
+    line-height: 31px;
+}
+.jj .md6{
+    background: #f7f7f7;
+}
+/*简介部分样式*/
+
+/*装点家园部分样式*/
+.zdjy .zd-box img{
+    width: 100%;
+    margin: 90px 0px 90px 0px;
+}
+.zdjy{
+    text-align: center;
+}
+.zdjy h3{
+    font-size: 18px;
+}
+.zdjy p{
+    font-size: 14px;
+}
+.zdjy .zd-box{
+    margin-bottom: 30px;
+    border: 1px solid #b7b2b2;
+}
+.zdjy .zd-box1{
+    position: relative;
+}
+.zdjy .zdline1{
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateY(-50%);
+}
+.zdjy .zd-box2{
+    position: relative;
+}
+.zdjy .zdline2{
+    position: absolute;
+    top: 11%;
+    left: 50%;
+    transform: translateY(-50%);
+}
+.zdjy .zdline{
+    width: 10%;
+    height: 2px;
+    background: #b7b2b2;
+}
+.zdjy img{
+    width: 100%;
+}
+.zdjy .zdjy-xbox{
+    border: 1px solid #f6f6f6;
+    padding: 40px 10px;
+    text-align: left;
+}
+.zdjy .m8box .zdjy-xbox h3{
+    font-weight: 600;
+}
+.zdjy .m8box .zdjy-xbox span{
+    color: #646464;
+}
+/*装点家园部分样式*/
+
+/*服务导航部分样式*/
+.fwdh{
+    margin-bottom: 40px;
+}
+.fwdh h3{
+    font-size: 14px;
+    font-weight: 600;
+}
+.fwdh p{
+    font-size: 12px;
+}
+/*服务导航部分样式*/
+
+/*footer部分样式*/
+footer{
+    background: #f7f7f7;
+    text-align: center;
+}
+.footer h3{
+    font-size: 20px;
+}
+.footer img.logo{
+    width: 92px;
+    height: 92px;
+}
+.footer .md4box img{
+    width: 34px;
+}
+footer p{
+    color: #bbbbbb;
+    font-size: 12px;
+}
+.footer .rowbox{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+.footer .fbox2 .rowbox p{
+    line-height: 30px;
+    width: 90%;
+}
+.footer p i{
+    font-size: 20px;
+    color: #000;
+    border: 1px #000 solid;
+    border-radius: 50%;
+    padding: 5px;
+}
+.footer .fbox1{
+    border-bottom: 1px #dcdcdc solid;
+}
+.footer{
+    border-bottom: 1px #dcdcdc solid;
+}
+footer .bq{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+}
+footer .fanhui{
+    position: fixed;
+    right: 0px;
+    bottom: 50%;
+    transform: translateY(50%);
+    text-align: center;
+    width: 5%;
+    background: #000;
+}
+footer .fanhui i{
+    color: #fff;
+    margin: 15px 0px;
+    font-size: 30px;
+}
+/*footer部分样式*/
+
+
+/*所有商品页面样式*/
+
+/*简介部分样式*/
+.about .jj .md6 img{
+    margin-top: 30px;
+    width: 100%;
+}
+.about .jj h3{
+    font-size: 18px;
+}
+.about .jj .md6{
+    background: none;
+}
+/*简介部分样式*/
+
+/*所有商品页面样式*/
+.sysp{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.sysp img{
+    width: 100%;
+}
+.sysp h3{
+    font-size: 16px;
+}
+.sysp p{
+    font-size: 12px;
+}
+/*所有商品页面样式*/
+
+/*支付方式页面样式*/
+
+/*在线支付部分样式*/
+.zxzf{
+    padding: 20px 0px;
+}
+.zxzf span,.yhzz span,.hdfk span{
+    padding: 20px 0px;
+    font-weight: 600;
+    color: #919191;
+}
+.zxzf p{
+    color: #646464;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.zxzf .zxzf-toptxt{
+    border-bottom: 1px double #ededed;
+}
+.zxzfp{
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+/*在线支付部分样式*/
+
+/*银行转账部分样式*/
+.yhzz{
+    padding: 20px 0px;
+    margin: 30px 0px;
+}
+.yhzz p{
+    color: #646464;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.yhzz .yhzz-toptxt{
+    border-bottom: 1px double #ededed;
+}
+.yhzzp{
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+/*银行转账部分样式*/
+
+/*货到付款部分样式*/
+.hdfk{
+    padding: 20px 0px;
+}
+.hdfk p{
+    color: #646464;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.hdfk .hdfk-toptxt{
+    border-bottom: 1px double #ededed;
+}
+.hdfkp{
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.zfp{
+    padding: 0px;
+    margin: 0px;
+    color: #f6f6f6;
+}
+/*货到付款部分样式*/
+
+/*支付方式页面样式*/
+
+/*手机端样式*/
+@media (max-width:768px){
+    .banner .swiper-slide {
+        height: 192px;
+    }
+    .banner h1 {
+        font-size: 30px;
+    }
+    .jrsx .col-xs-6{
+        margin-bottom: 30px;
+    }
+    .header-top{
+        display: none;
+    }
+    .zdjy .zd-box2{
+        position: relative;
+    }
+    .zdjy .zdline2{
+        position: absolute;
+        top: 11%;
+        left: 50%;
+        transform: translateY(-50%);
+    }
+    .zdjy .zdline{
+        width: 10%;
+        height: 2px;
+        background: #b7b2b2;
+    }
+    .fwdh{
+        text-align: center;
+    }
+    footer .fanhui{
+        display: none;
+    }
+    .footer .rowbox{
+        text-align: center;
+    }
+    .footer .fbox2 .rowbox p{
+         width: 100%; 
+    }
+    .zxzf h3,.zfp,.yhzz h3,.hdfk h3{
+        text-align: center;
+    }
+    .about .jj img {
+        width: 100%;
+        height: 120px;
+    }
+    .price .banner img {
+        width: 100%;
+        height: 120px;
+    }
+}
+/*手机端样式*/
